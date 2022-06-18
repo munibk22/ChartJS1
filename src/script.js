@@ -13,9 +13,11 @@ const chart1 = new Chart(myChart1, {
         }]
     },
     options: {
-        title: {
-            text: "Do you like doughnuts?",
-            display: true
+        plugins: {
+            title: {
+                text: "Do you like doughnuts?",
+                display: true
+            }
         }
     }
 })
@@ -35,12 +37,14 @@ const chart2 = new Chart(myChart2, {
         }]
     },
     options: {
-        title: {
-            text: "Num of passengers carreied:",
-            display: true
-        },
-        legend: {
-            display: false
+        plugins: {
+            title: {
+                text: "Num of passengers carreied:",
+                display: true
+            },
+            legend: {
+                display: false
+            }
         }
     }
 })
@@ -74,9 +78,11 @@ let chart3 = new Chart(myChart3, {
         ]
     },
     options: {
-        title: {
-            text: "Skills",
-            display: true
+        plugins: {
+            title: {
+                text: "Skills",
+                display: true
+            }
         }
     }
 });
@@ -97,9 +103,11 @@ let chart4 = new Chart(myChart4, {
         }]
     },
     options: {
-        title: {
-            text: "Population of the European Union (in mio)",
-            display: true
+        plugins: {
+            title: {
+                text: "Population of the European Union (in mill)",
+                display: true
+            }
         }
     }
 });
